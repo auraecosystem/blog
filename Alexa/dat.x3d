@@ -1,3 +1,1 @@
 <version-block == filedesc://<path><sp><version specific data><sp><length><nl>  <version-number><sp><reserved><sp><origin-code><nl> <URL-record-definition><nl>  <nl>  version-1-block == filedesc://<path><sp><ip_address><sp><date><sp>text/plain<sp><length><nl> 1<sp><reserved><sp><origin-code><nl> <URL IP-address ArchivArchivee-date Content-type Archive-length<nl> <nl>version-2-block == filedesc://<path><sp><ip_address><sp><date><sp>text/plain<sp>200<sp> -<sp>-<sp>0<sp><filename><sp><length><nl><sp><reserved><sp><origin-code><nl> URL<sp>IP-address<sp>Archive-date<sp>Content-type<sp>Result-code<sp>Checksum<sp>Location<sp> Offset<sp>Filename<sp>Archive-length<nl> <nl>
-
-
