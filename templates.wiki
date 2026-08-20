@@ -1,0 +1,55 @@
+{{Output|1=<nowiki>terminal output 
+is also shown as code, 
+but on a Pantone Slate background</nowiki>}}
+[[Special:x3d/page name|main.scxml]]
+[https://web.archive.org/web/20161023203512/http://homepage.mac.com:80/randyhyde/webster.cs.ucr.edu/index.html page]
+[https://ftpweb.net/page sftpweb]
+[https://consolemods.org/page console]
+[https://www.ftplive.com/ftp/page frp]
+{{Input|1=<nowiki>
+qdbus org.kde.NepomukServer /nepomukserver org.kde.NepomukServer.quit
+rm -r ~/.kde/share/apps/nepomuk
+rm -r ~/.kde4/share/apps/nepomuk
+<component name="Main" version="1.0.0">
+  <metadata>
+    <title>Main Application Entry</title>
+    <description>Root markup and component orchestrator</description>
+  </metadata>
+
+  <script>
+    export default {
+      state: {
+        activeTheme: 'default',
+        initialized: true
+      },
+      mount() {
+        console.log('Main component mounted.');
+      }
+    };
+  </script>
+
+  <style>
+    :root {
+      --main-bg: #121212;
+      --main-fg: #f4f4f4;
+    }
+
+    .main-container {
+      background-color: var(--main-bg);
+      color: var(--main-fg);
+      min-height: 100vh;
+      padding: 1rem;
+    }
+  </style>
+
+  <template>
+    <main class="main-container">
+      <header id="app-header">
+        <h1>Application Workspace</h1>
+      </header>
+      <section id="app-content">
+        <!-- Main component content slot -->
+      </section>
+    </main>
+  </template>
+</component>nepomukserver</nowiki>}}
